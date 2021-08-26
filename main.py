@@ -583,6 +583,6 @@ if __name__ == "__main__":
                     game.check_eat_apple()
                     game.update_screen(SCORE)
                     sleep(SPEED)
+
             except IndexError:
-                game.restart()
                 game.restart()
